@@ -1,0 +1,279 @@
+.rs-icon{
+    position: absolute;
+    right: 0;
+    background-color: transparent !important;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50% !important;
+    transform: rotate(-90deg);
+    color: rgba(255, 255, 255, 0.5);
+    transition: transform .2s;
+}
+.rs-dropdown-header{
+    display: none;
+}
+.rs-dropdown-menu{
+    list-style: none;
+    padding-left: 20px;
+    transition: all .2s;
+    height: 0;
+}
+.rs-dropdown-item{
+    color: rgba(255, 255, 255, 0.5);
+}
+.rs-dropdown-item:hover{
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transition: color .2s;
+}
+.rs-dropdown-expand .rs-icon{
+    transform: rotate(0deg);
+    border-color: white;
+    color: white;
+    transition: transform .2s;
+}
+.rs-dropdown-menu-collapse-in{
+    display: block;
+}
+.rs-dropdown-menu-collapse-out{
+    display: none;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+scrollbar-width: thin;
+scrollbar-color: #c7c7c7 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #c7c7c7;
+border-radius: 8px;
+border: 2px solid #ababab;
+}
+
+/* SLIDER CSS */
+/* SLIDER CSS */
+/* SLIDER CSS */
+.sliderMain{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+}
+.carousel__slider {
+    width: 100%;
+    height: 100%;
+}
+.sliderButtons button{
+    margin: 0 10px;
+    background-color: #2b3848;
+    color: white;
+    border: 1px solid #2b3848;
+    border-radius: 8px;
+    padding: 5px;
+}
+.sliderButtons button:disabled{
+    color: black;
+    background-color: #ddd;
+}
+.sliderButtons .btnLeft{
+    position: absolute;
+    top: 50%;
+    left: -15px;
+}
+.sliderButtons .btnRight{
+    position: absolute;
+    top: 50%;
+    right: -15px;
+}
+.contentHolderSlider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.customSvgSlider{
+    margin-right: 10px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+
+}
+.tennisIcon{
+    background: #29b41a;
+}
+.containerLayout{
+    margin-top: 20px;
+}
+.rowLayout{
+    display: flex;
+    justify-content: space-around;
+}
+.scoreRange{
+    /* border: 4px solid; */
+    padding: 40px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.scoreRange::before{
+    content: '';
+    border: 4px solid;
+    border-radius: 100%;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 100%;
+    height: 100%;
+
+}
+.scoreRange::after{
+    content: '';
+    border: 2px solid red;
+    border-radius: 100%;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 100%;
+    height: 100%;
+}
+.percentScore{
+    position: absolute;
+    bottom: -10%;
+    padding: 10px;
+    background-color: #2b3848;
+    display: block;
+    border-radius: 8px;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+.percentScore svg{
+    width: 48px;
+    height: 48px;
+}
+.scoreRange svg{
+    margin: auto;
+    background-color: transparent;
+    width: 48px;
+    height: 48px;
+}
+.teamLeft .scoreRange{
+    border-color: #29b41a;
+}
+.teamRight .scoreRange{
+    border-color: crimson;
+}
+.teamName{
+    margin-top: 15px;
+}
+.teamCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 30%;
+}
+.team_vs{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.team_vs div{
+    width: 100%;
+}
+/* .team_vs::after,.team_vs::before{
+    content: "";
+    width: 35%;
+    border: 1px solid;
+    position: absolute;
+    top: 50%;
+}
+.team_vs::before{
+    left: 0;
+}
+.team_vs::after{
+    right: 0;
+} */
+.team_vs_score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.team_vs_score div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    background: #2b3848;
+    border-radius: 12px;
+    width: 45%;
+}
+.tournaments{
+    height: 150px !important;
+}
+.tournaments .customSvgSlider {
+    border-radius: 50%;
+}
+.tournaments .customSvgSlider{
+    width: 48px;
+    height: 48px;
+}
+.tournaments .tennisIcon{
+    background-color: #0d80f7;
+}
+.tournaments .tennisIcon{
+    background-color: #0d80f7;
+}
+.tournaments .cricketIcon{
+    background-color: purple;
+}
+.tournaments .footballIcon{
+    background-color: orange;
+}
+/* .iconSmall{
+    width: 32px !important;
+    height: 32px !important;
+} */
+
+/* SPORTS SECTION  */
+/* SPORTS SECTION  */
+/* SPORTS SECTION  */
+/* SPORTS SECTION  */
+.sportSection{
+    height: auto !important;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open{
+    z-index: 99999999999999 ;
+}
+
+.sportsRelative{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.sportsRelative svg{
+    width: 100%;
+    height: 100%;
+}
+.sportIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,230 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-Bold
+FamilyName:Chakra Petch
+StyleName:Bold
+FullName:Chakra Petch Bold
+MenuName:Chakra Petch
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:70828
+FileModTime:1644017440
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Chakra Petch
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-BoldItalic
+FamilyName:Chakra Petch
+StyleName:Bold Italic
+FullName:Chakra Petch Bold Italic
+MenuName:Chakra Petch
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73168
+FileModTime:1644017440
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Chakra Petch
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-Italic
+FamilyName:Chakra Petch
+StyleName:Italic
+FullName:Chakra Petch Italic
+MenuName:Chakra Petch
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73172
+FileModTime:1644017440
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Chakra Petch
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-Light
+FamilyName:Chakra Petch Light
+StyleName:Regular
+FullName:Chakra Petch Light
+MenuName:Chakra Petch Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:71212
+FileModTime:1644017440
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Chakra Petch Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-LightItalic
+FamilyName:Chakra Petch Light
+StyleName:Italic
+FullName:Chakra Petch Light Italic
+MenuName:Chakra Petch Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73480
+FileModTime:1644017440
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Chakra Petch Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-Medium
+FamilyName:Chakra Petch Medium
+StyleName:Regular
+FullName:Chakra Petch Medium
+MenuName:Chakra Petch Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:70912
+FileModTime:1644017440
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Chakra Petch Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-MediumItalic
+FamilyName:Chakra Petch Medium
+StyleName:Italic
+FullName:Chakra Petch Medium Italic
+MenuName:Chakra Petch Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73264
+FileModTime:1644017440
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Chakra Petch Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-Regular
+FamilyName:Chakra Petch
+StyleName:Regular
+FullName:Chakra Petch Regular
+MenuName:Chakra Petch
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:70920
+FileModTime:1644017440
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Chakra Petch
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-SemiBold
+FamilyName:Chakra Petch SemiBold
+StyleName:Regular
+FullName:Chakra Petch SemiBold
+MenuName:Chakra Petch SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:70924
+FileModTime:1644017440
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Chakra Petch SemiBold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ChakraPetch-SemiBoldItalic
+FamilyName:Chakra Petch SemiBold
+StyleName:Italic
+FullName:Chakra Petch SemiBold Italic
+MenuName:Chakra Petch SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\bharat\andy\Font\ChakraPetch-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73284
+FileModTime:1644017440
+WeightClass:600
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Chakra Petch SemiBold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\bharat\andy\Font\chakra-petch-cufonfonts.zip
+FileModTime:1660117423
+%EndFont
+

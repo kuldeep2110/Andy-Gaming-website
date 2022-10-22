@@ -1,0 +1,173 @@
+@import '/styles/variables.sass'
+.hideBtnLarge
+  display: none
+  @media(max-width: 1280px)
+    display: block
+    font-size: 14px
+
+.navContainer
+  @media(max-width: 984px)
+    width: 100%
+    background: #18202c
+    overflow: auto
+.expand
+  display: none
+  @media(max-width: 984px)
+    display: block
+    margin: 10px
+    position: relative
+.expand div
+  @media(max-width: 984px)
+    backdrop: red
+    height: 28px
+    width: 28px
+    margin-left: auto
+    right: 10px
+    border-radius: 50%
+    // transform: rotate(180deg)
+.ui
+  width: 100%
+  height: 100%
+  max-width: 100%
+  position: relative
+  padding-bottom: 30px
+  &[data-layout]
+    display: flex
+    flex-flow: row nowrap
+    justify-content: flex-start
+    align-items: stretch
+    align-content: stretch
+    [data-row="primary"]
+      flex: 1 0 auto
+    [data-row="secondary"]
+      flex: 0 0 280px
+      max-height: 280px
+      @media(max-width: 984px)
+        display: none
+    .pane
+      flex: 1 1 auto
+    .side
+      // flex: 0 0 $sidebar_width
+
+.pane
+  display: flex
+  flex-flow: column nowrap
+  justify-content: flex-start
+  align-items: stretch
+  align-content: stretch
+  margin: 20px 25px
+  @media(max-width: 984px)
+    margin: 80px 25px
+
+.row
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin: 16px 0
+
+  &[data-row="small"]
+    flex: 0 0 130px
+  &[data-row="medium"]
+    flex: 0 0 200px
+  &[data-row="fill"]
+    flex: 1 0 auto
+
+.side
+  width: 20%
+  padding: 0
+  display: flex
+  flex-flow: column nowrap
+  justify-content: flex-start
+  align-items: stretch
+  align-content: stretch
+  transition: all 0.3s
+
+  @media(max-width: 1550px)
+    width: 30%
+  @media(max-width: 984px)
+    padding-top: 70px
+    position: fixed
+    top: 0
+    left: 0px
+    width: 405px
+    // background: $color_dark
+    // height: 100%
+    z-index: 99
+    margin: auto
+    height: 100vh
+
+.side hr
+  width: 100%
+
+.side svg
+  width: 24px
+  height: 24px
+  // margin-right: 10px
+
+.navOverflow
+  // max-height: 800px
+  overflow-y: auto
+  width: 100%
+  @media(max-width: 984px)
+    height: auto
+    overflow: hidden
+
+.navSection
+  background: rgba( 29, 40, 53, 0.8 )
+  padding: 15px
+  width: 100%
+  margin: 20px 0
+  display: flex
+  border-radius: 8px
+
+.search input
+  background: none
+  outline: none
+  border: none
+  color: white
+
+.navSection .item
+  display: flex
+  flex-flow: column nowrap
+  width: 100%
+
+.navSection .item a:first-child
+  margin: 5px 0 10px 0
+
+.navSection .item a:last-child
+  margin: 10px 0 5px 0
+
+.navSection .item a
+  margin: 10px 0
+  text-decoration: none
+  display: flex
+  align-items: center
+  position: relative
+
+.customSvg svg
+  margin-right: 10px
+  display: block
+  padding: 5px
+  border-radius: 8px
+  width: 32px
+  height: 32px
+
+.customSvg img
+  margin-right: 10px !important
+
+.home svg
+  background: #2c65d4
+.live svg
+  background: #df3a6d
+.football svg
+  background: #d6a12e
+.tennis svg
+  background: #29b41a
+
+.side hr
+  border-color: rgb(255 255 255 / 20%)
+.navUl
+  padding: 0
+  display: flex
+  flex-flow: column nowrap
+  justify-content: flex-start
